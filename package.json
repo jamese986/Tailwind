@@ -1,0 +1,24 @@
+{
+  "name": "Tailwind",
+  "version": "1.0.0",
+  "description": "Tailwind",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamese986/Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamese986/Tailwind/issues"
+  },
+  "homepage": "https://github.com/jamese986/Tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
